@@ -29,7 +29,6 @@ Pré-requisitos
 - Saque máximo por operação: R$ 500,00
 - Máximo de 3 saques por dia
 - Máximo de 10 transações por dia
+
 📄 Licença
 Este projeto é para fins educacionais. Sinta-se livre para usar, modificar e distribuir.
-
-Se quiser, posso incluir instruções para empacotar o sistema com pyinstaller, adicionar imagens da interface ou até criar uma versão em inglês. Me avisa como você quer evoluir esse README — ele pode ser tão profissional quanto você quiser.
