@@ -1,51 +1,29 @@
-Claro, Luiz! Aqui está o seu README com emojis adicionados para deixá-lo mais visual e envolvente:
+🏦 LJ BANK — Sistema Bancário com Interface Gráfica
+📌 Visão Geral
+LJ BANK é um sistema bancário simples e funcional desenvolvido em Python com interface gráfica via Tkinter. Ele permite que usuários realizem operações bancárias básicas como cadastro, login, depósitos, saques, transferências e recuperação de senha, com persistência de dados em arquivos locais.
+🎯 Funcionalidades
+- Cadastro de novos usuários com pergunta secreta
+- Login com verificação de senha
+- Recuperação de senha via pergunta secreta
+- Depósitos e saques com limites diários
+- Transferência entre contas
+- Registro de extrato com data e hora
+- Persistência de dados em arquivos .txt
+- Interface gráfica amigável com design inspirado em bancos reais
+🖥️ Tecnologias Utilizadas
+- Python 3
+- Tkinter (GUI)
+- datetime (registro de data/hora)
+- Sistema de arquivos para persistência (os, .txt)
+📦 Instalação e Execução
+Pré-requisitos
+- Python 3 instalado
+🔐 Regras de Negócio
+- Saldo inicial: R$ 2000,00
+- Saque máximo por operação: R$ 500,00
+- Máximo de 3 saques por dia
+- Máximo de 10 transações por dia
+📄 Licença
+Este projeto é para fins educacionais. Sinta-se livre para usar, modificar e distribuir.
 
----
-
-# 💳 Sistema Bancário em Python com Tkinter
-
-Este é um projeto simples de sistema bancário com interface gráfica, desenvolvido em Python utilizando a biblioteca Tkinter 🐍🖼️.
-
-## ⚙️ Funcionalidades
-
-- 🔐 **Login de usuário** (com cadastro de novos usuários)
-- 💰 **Depósito** de valores
-- 🏧 **Saque** com limite diário e por operação
-- 📄 **Visualização de extrato** das transações
-- 📊 **Controle de saldo**
-- 🗂️ **Persistência de usuários** em arquivo (`usuarios.txt`)
-
-## 🚀 Como usar
-
-1. 📥 **Clone este repositório:**
-   ```bash
-   git clone https://github.com/Luiz-Jr4001/Sistema_bancario.git
-   ```
-2. 📂 **Acesse a pasta do projeto:**
-   ```bash
-   cd Sistema_bancario
-   ```
-3. ▶️ **Execute o programa:**
-   ```bash
-   python sistema_banco_desafio.py
-   ```
-
-## 🧰 Requisitos
-
-- 🐍 Python 3.x  
-- 📦 Biblioteca Tkinter (já incluída na maioria das instalações do Python)
-
-## 📝 Observações
-
-- 📁 Os usuários cadastrados são salvos no arquivo `usuarios.txt` no formato `usuario;senha`.
-- 👥 O saldo e extrato são compartilhados entre todos os usuários (pode ser adaptado para saldo individual).
-- 🧹 Para resetar os usuários, basta apagar o arquivo `usuarios.txt`.
-
-
-## 📜 Licença
-
-Este projeto é livre para fins de estudo 📚.
-
----
-
-Se quiser, posso te ajudar a criar uma versão com prints ou até gerar um banner para o topo do README. Só dizer!
+Se quiser, posso incluir instruções para empacotar o sistema com pyinstaller, adicionar imagens da interface ou até criar uma versão em inglês. Me avisa como você quer evoluir esse README — ele pode ser tão profissional quanto você quiser.
